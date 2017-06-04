@@ -7,13 +7,13 @@ exports.handle = function(e, ctx, cb) {
     apiSecret: process.env.BANDWIDTH_SECRET,
   });
 
-  const message = {
+  const body = {
     from: process.env.FROM_NUMBER,
     to: e.to,
     text: e.text
   };
 
-  client.Message.send(message)
+  client.Message.send(body)
     .then(message => cb(null, message))
     .catch(err => cb(err, null));
 }
