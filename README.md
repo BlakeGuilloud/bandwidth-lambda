@@ -11,7 +11,7 @@ const rp = 'request-promise';
 
 const options = {
   method: 'POST',
-  uri: 'apigatewayroute',
+  uri: 'https://9agao47h5d.execute-api.us-west-2.amazonaws.com/prod/bandwidth-lambda_send',
   body: {
     to: '+18438126962',
     message: 'Hello Blake!'
