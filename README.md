@@ -1,5 +1,8 @@
 ## bandwidth-lambda - +18437329699
 
+### Disclaimer:
+I am having issues hitting API Gateway with my REST client, Insomnia.. It appears to be working fine with Postman, but getting a cloud front rejection when using Insomnia.
+
 An ongoing project to explore serverless architecture through the texting services that the Bandwidth API provides.
 
 ### Routes:
