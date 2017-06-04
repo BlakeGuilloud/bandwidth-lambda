@@ -1,0 +1,8 @@
+{
+  "name": "bandwidth-lambda",
+  "description": "Send a text message through the bandwidth API",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::055809122680:role/bandwidth-lambda_lambda_function",
+  "environment": {}
+}
