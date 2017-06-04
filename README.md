@@ -21,7 +21,7 @@ const options = {
     text: 'Hello Blake!'
   },
   json: true
-}
+};
 
 rp(options)
   .then(handleSuccess)
